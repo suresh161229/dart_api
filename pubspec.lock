@@ -73,6 +73,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.3"
+  dart_mysql:
+    dependency: "direct main"
+    description:
+      name: dart_mysql
+      sha256: "3ec47e5b01d9f6bb2eb6b290e4c5e00366561c4b8bc8c17205dc871aa125dad0"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.1"
   file:
     dependency: transitive
     description:
