@@ -10,6 +10,9 @@ environment:
 dependencies:
   shelf: ^1.3.0
   shelf_router: ^1.0.0
+  # mysql_client: ^0.0.27
+  dart_mysql: ^0.0.1
+  # mysql1: ^0.19.1
   # path: ^1.8.0
 
 dev_dependencies:
