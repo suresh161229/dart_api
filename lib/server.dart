@@ -18,7 +18,7 @@ void main() async {
   });
 
   // POST /users - Create a new user
-  router.post('/', (Request request) async {
+  router.post('/user', (Request request) async {
     final payload = await request.readAsString();
     final Map<String, dynamic> user = jsonDecode(payload);
     user['id'] = users.length + 1;
